@@ -3,6 +3,7 @@ import { ChromaClient } from 'chromadb';
 import type { Collection } from 'chromadb';
 import type { OrchidDocument, OrchidSearchResult, OrchidMetadataFilters, OrchidRAGScope } from '@orchid-ai/orchid/core';
 
+// ORCHID-MEM: 01a1a0c1-de19-7245-a818-d385e8c0a1a5 — TypeScript ChromaDB adapter
 export class ChromaRepository {
   private client: ChromaClient;
   private collections = new Map<string, Collection>();
